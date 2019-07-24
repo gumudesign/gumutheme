@@ -19,19 +19,20 @@ defined( 'ABSPATH' ) || exit;
 
 do_action( 'woocommerce_before_cart' ); ?>
 
-<section class="elementor-element elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section">
 	<div class="elementor-row">
-		<div class="elementor-column"> <p><div class="elementor-element gumushop-cart-steps-active">1</div> 我的購物車​ </p></div>
+		<div class="elementor-column">
+			<div class="elementor-row">
+				<div class="elementor-column"><div style="color: #ffffff;text-align: center;width: 40px;height: 40px;position: absolute;top: 50%;left: 50%;margin: -20px 0 0 -40px;background-color: #d8d8d8;border-radius: 50%;">1</div></div><div class="elementor-column">我的購物車​25</div>
+			</div>
+		</div>
 		<div class="elementor-column"> <p><div class="elementor-element gumushop-cart-steps">2</div> 填寫地址與付款 </p></div>
 		<div class="elementor-column"> <p><div class="elementor-element gumushop-cart-steps">3</div> 訂單確認 </p></div>
 	</div>
-</section>
 
-<section class="elementor-element elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section">
-	<form align="center" class="woocommerce-cart-form" action="<?php echo esc_url( wc_get_cart_url() ); ?>" method="post">
+	<form class="woocommerce-cart-form" action="<?php echo esc_url( wc_get_cart_url() ); ?>" method="post">
 		<?php do_action( 'woocommerce_before_cart_table' ); ?>
 
-		<table align="center" class="shop_table shop_table_responsive cart woocommerce-cart-form__contents" cellspacing="0">
+		<table class="shop_table shop_table_responsive cart woocommerce-cart-form__contents" cellspacing="0">
 			<thead>
 				<tr bgcolor="#fdf6f4">
 					<th class="product-remove gumushop_cart_th">&nbsp;</th>
@@ -160,7 +161,6 @@ do_action( 'woocommerce_before_cart' ); ?>
 		</table>
 		<?php do_action( 'woocommerce_after_cart_table' ); ?>
 	</form>
-</section>
 
 <div class="cart-collaterals">
 	<?php
