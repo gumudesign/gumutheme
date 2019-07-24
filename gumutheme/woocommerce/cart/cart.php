@@ -21,9 +21,9 @@ do_action( 'woocommerce_before_cart' ); ?>
 
 <section class="elementor-element elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section">
 	<div class="elementor-row">
-		<div class="elementor-column"> <div class="gumushop_cart_steps_active">1</div> 我的購物車​ </div>
-		<div class="elementor-column"> <div class="gumushop_cart_steps">2</div> 填寫地址與付款 </div>
-		<div class="elementor-column"> <div class="gumushop_cart_steps">3</div> 訂單確認 </div>
+		<div class="elementor-column"> <div class="gumushop-cart-steps-active">1</div> 我的購物車​ </div>
+		<div class="elementor-column"> <div class="gumushop-cart-steps">2</div> 填寫地址與付款 </div>
+		<div class="elementor-column"> <div class="gumushop-cart-steps">3</div> 訂單確認 </div>
 	</div>
 </section>
 
