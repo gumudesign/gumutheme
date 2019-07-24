@@ -21,9 +21,9 @@ do_action( 'woocommerce_before_cart' ); ?>
 
 <section class="elementor-element elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section">
 	<div class="elementor-row">
-		<div class="elementor-column"> <div class="elementor-element gumushop-cart-steps-active">1</div> 我的購物車​ </div>
-		<div class="elementor-column"> <div class="elementor-element gumushop-cart-steps">2</div> 填寫地址與付款 </div>
-		<div class="elementor-column"> <div class="elementor-element gumushop-cart-steps">3</div> 訂單確認 </div>
+		<div class="elementor-column"> <p><div class="elementor-element gumushop-cart-steps-active">1</div> 我的購物車​ </p></div>
+		<div class="elementor-column"> <p><div class="elementor-element gumushop-cart-steps">2</div> 填寫地址與付款 </p></div>
+		<div class="elementor-column"> <p><div class="elementor-element gumushop-cart-steps">3</div> 訂單確認 </p></div>
 	</div>
 </section>
 
@@ -34,12 +34,12 @@ do_action( 'woocommerce_before_cart' ); ?>
 		<table align="center" class="shop_table shop_table_responsive cart woocommerce-cart-form__contents" cellspacing="0">
 			<thead>
 				<tr bgcolor="#fdf6f4">
-					<th class="product-remove">&nbsp;</th>
-					<th class="product-thumbnail">&nbsp;</th>
-					<th class="product-name"><?php esc_html_e( 'Product', 'woocommerce' ); ?></th>
+					<th class="product-remove gumushop_cart_th">&nbsp;</th>
+					<th class="product-thumbnail gumushop_cart_th">&nbsp;</th>
+					<th class="product-name gumushop_cart_th"><?php esc_html_e( 'Product', 'woocommerce' ); ?></th>
 					<!-- <th class="product-price"><?php esc_html_e( 'Price', 'woocommerce' ); ?></th> -->
-					<th class="product-quantity"><?php esc_html_e( 'Quantity', 'woocommerce' ); ?></th>
-					<th class="product-subtotal"><?php esc_html_e( 'Total', 'woocommerce' ); ?></th>
+					<th class="product-quantity gumushop_cart_th"><?php esc_html_e( 'Quantity', 'woocommerce' ); ?></th>
+					<th class="product-subtotal gumushop_cart_th"><?php esc_html_e( 'Total', 'woocommerce' ); ?></th>
 				</tr>
 			</thead>
 			<tbody>
