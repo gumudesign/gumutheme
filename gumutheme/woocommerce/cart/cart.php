@@ -21,24 +21,15 @@ do_action( 'woocommerce_before_cart' ); ?>
 
 <section class="elementor-element elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section">
 	<div class="elementor-row">
-		<div class="elementor-column"> <div class="gumushop-cart-steps-active">1</div> 我的購物車​ </div>
-		<div class="elementor-column"> <div class="gumushop-cart-steps">2</div> 填寫地址與付款 </div>
-		<div class="elementor-column"> <div class="gumushop-cart-steps">3</div> 訂單確認 </div>
+		<div class="elementor-column"> <div class="elementor-element gumushop-cart-steps-active">1</div> 我的購物車​ </div>
+		<div class="elementor-column"> <div class="elementor-element gumushop-cart-steps">2</div> 填寫地址與付款 </div>
+		<div class="elementor-column"> <div class="elementor-element gumushop-cart-steps">3</div> 訂單確認 </div>
 	</div>
 </section>
 
 <section class="elementor-element elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section">
 	<form align="center" class="woocommerce-cart-form" action="<?php echo esc_url( wc_get_cart_url() ); ?>" method="post">
 		<?php do_action( 'woocommerce_before_cart_table' ); ?>
-
-		<table class="gumushop_table" >
-			<tbody>
-			<tr>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-			</tr>
-			</tbody>
-		</table>
 
 		<table align="center" class="shop_table shop_table_responsive cart woocommerce-cart-form__contents" cellspacing="0">
 			<thead>
