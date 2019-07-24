@@ -4,7 +4,7 @@ Theme URI: https://www.gumudesign.com/
 Author: GUMU
 Author URI: https://www.gumudesign.com/
 Description: Theme design by GUMU.
-Version: 1.0.25
+Version: 1.0.26
 Text Domain: gumutheme
 Tags: gumu, gumudesign, gumutech, gumutheme
 */
@@ -990,7 +990,7 @@ object {
 ## Cart
 --------------------------------------------------------------*/
 
-.gumushop_cart_th {
+.gumushop-cart-th {
 	color: red !important;
 	text-align: center !important;
 }

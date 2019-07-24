@@ -22,7 +22,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 	<div class="elementor-row">
 		<div class="elementor-column">
 			<div class="elementor-row">
-				<div class="elementor-column"><div style="color: #ffffff;text-align: center;width: 40px;height: 40px;position: absolute;top: 50%;left: 50%;margin: -20px 0 0 -40px;background-color: #d8d8d8;border-radius: 50%;">1</div></div><div class="elementor-column">我的購物車​25</div>
+				<div class="elementor-column"><div style="color: #ffffff;text-align: center;width: 40px;height: 40px;position: absolute;top: 50%;left: 50%;margin: -20px 0 0 -40px;background-color: #d8d8d8;border-radius: 50%;">1</div></div><div class="elementor-column">我的購物車​26</div>
 			</div>
 		</div>
 		<div class="elementor-column"> <p><div class="elementor-element gumushop-cart-steps">2</div> 填寫地址與付款 </p></div>
@@ -35,12 +35,12 @@ do_action( 'woocommerce_before_cart' ); ?>
 		<table class="shop_table shop_table_responsive cart woocommerce-cart-form__contents" cellspacing="0">
 			<thead>
 				<tr bgcolor="#fdf6f4">
-					<th class="product-remove gumushop_cart_th">&nbsp;</th>
-					<th class="product-thumbnail gumushop_cart_th">&nbsp;</th>
-					<th class="product-name gumushop_cart_th"><?php esc_html_e( 'Product', 'woocommerce' ); ?></th>
+					<th class="product-remove gumushop-cart-th">&nbsp;</th>
+					<th class="product-thumbnail gumushop-cart-th">&nbsp;</th>
+					<th class="product-name gumushop-cart-th"><?php esc_html_e( 'Product', 'woocommerce' ); ?></th>
 					<!-- <th class="product-price"><?php esc_html_e( 'Price', 'woocommerce' ); ?></th> -->
-					<th class="product-quantity gumushop_cart_th"><?php esc_html_e( 'Quantity', 'woocommerce' ); ?></th>
-					<th class="product-subtotal gumushop_cart_th"><?php esc_html_e( 'Total', 'woocommerce' ); ?></th>
+					<th class="product-quantity gumushop-cart-th"><?php esc_html_e( 'Quantity', 'woocommerce' ); ?></th>
+					<th class="product-subtotal gumushop-cart-th"><?php esc_html_e( 'Total', 'woocommerce' ); ?></th>
 				</tr>
 			</thead>
 			<tbody>
